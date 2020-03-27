@@ -32,7 +32,7 @@ class Artist
   end
 
   def print_songs
-    songs.all {|song| puts song.name}
+    self.songs.each {|song| puts song.name}
   end
 
 end
