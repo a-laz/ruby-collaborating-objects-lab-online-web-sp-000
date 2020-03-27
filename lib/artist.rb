@@ -34,9 +34,8 @@ class Artist
   def self.new_by_filename
   end
 
-  def self.print_songs
-    self.songs.each {|song| puts "#{song}"}
+  def print_songs
+    self.songs.each{|song| puts song.name}
   end
-
 
 end
