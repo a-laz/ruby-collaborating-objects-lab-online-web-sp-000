@@ -4,5 +4,5 @@ class Artist
     @name = name
     save
   end
-  
+
 end
