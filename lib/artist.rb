@@ -31,9 +31,6 @@ class Artist
     self.find(name) ? self.find(name) : self.new(name)
   end
 
-  def self.new_by_filename
-  end
-
   def print_songs
     self.songs.each{|song| puts song.name}
   end
