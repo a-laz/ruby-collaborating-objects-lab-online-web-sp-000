@@ -35,6 +35,4 @@ class Artist
     songs.all {|song| puts song.name}
   end
 
-
-
 end
